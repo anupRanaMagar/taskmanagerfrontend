@@ -8,8 +8,6 @@ This is the frontend for the **Task Manager App**, built using **Vite + React**.
 
 ![Task Manager UI](public/screenshot.png)
 
-> Make sure to add a `screenshot.png` file to your root directory or update the image path accordingly.
-
 ---
 
 ## ⚙️ Features
@@ -72,6 +70,6 @@ The app should now be running at: [http://localhost:5173](http://localhost:5173)
 
 ## 📂 Backend API
 
-Make sure the [Task Manager API backend](https://github.com/your-username/task-manager-api) is running and configured to handle CORS and cookies properly.
+Make sure the [Task Manager API backend](https://github.com/anupRanaMagar/taskmanagerbackend) is running and configured to handle CORS and cookies properly.
 
 ---
