@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: process.env.BACKEND_ROUTE, // your backend base URL
+  baseURL: "https://taskmanagerbackend-97e7.onrender.com", // your backend base URL
   withCredentials: true, // needed to send cookies (refresh token)
 });
 

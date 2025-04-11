@@ -40,7 +40,7 @@ npm install
 Create a `.env` file in the root and configure it like this:
 
 ```env
-VITE_API_BASE_URL=http://localhost:8000
+BACKEND_ROUTE = your_backend_root_route
 ```
 
 > This should point to your backend API URL.
