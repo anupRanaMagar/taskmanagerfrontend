@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://taskmanagerbackend-ebon.vercel.app", // your backend base URL
+  baseURL: process.env.BACKEND_ROUTE, // your backend base URL
   withCredentials: true, // needed to send cookies (refresh token)
 });
 
